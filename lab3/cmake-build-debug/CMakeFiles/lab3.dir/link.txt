@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/lab3.dir/main.cpp.o CMakeFiles/lab3.dir/Test/test.cpp.o  -o lab3 lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a 

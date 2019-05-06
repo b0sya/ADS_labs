@@ -1,0 +1,10 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/b0ysa/Documents/Программирование/2 курс/4 семестр/Алгоритмы и структуры данных/lab2"
+-- Found PythonInterp: /usr/bin/python (found version "2.7.10") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/b0ysa/Documents/Программирование/2 курс/4 семестр/Алгоритмы и структуры данных/lab2/cmake-build-debug
