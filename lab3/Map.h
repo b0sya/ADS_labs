@@ -48,6 +48,15 @@ private:
     void fixInsert (NodeForMap< T, T1 > *current);
 
     void fixDeleting(NodeForMap<T, T1> *son);
+    
+    void helpClear(NodeForMap<T, T1> *currentNode);
+    
+    void creatingListOfKeys(NodeForMap<T, T1> *currentNode, List<T> &keysList);
+
+    void creatingListOfData(NodeForMap<T, T1> *currentNode, List<T1> &listOfData);
+    
+    void helpCreateFrecList(NodeForMap<T, T1> *currentNode, List<T> &listOfData);
+    
 public:
 
     Map();
@@ -70,24 +79,13 @@ public:
         return root;
     }
 
-    void helpClear(NodeForMap<T, T1> *currentNode);
-
     NodeForMap<T, T1>* find(T key);
 
     List<T> get_keys();
 
-    void creatingListOfKeys(NodeForMap<T, T1> *currentNode, List<T> &keysList);
-
     List<T1> get_data();
 
-    void creatingListOfData(NodeForMap<T, T1> *currentNode, List<T1> &listOfData);
-
     List<T>  createFrecList(List<T> list);
-
-    void helpCreateFrecList(NodeForMap<T, T1> *currentNode, List<T> &listOfData);
-
-
-
 
 };
 
