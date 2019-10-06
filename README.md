@@ -1,5 +1,5 @@
 # ADS_labs
-Laboratory work in the discipline "Algorithms and data structures". ETU, 4 semester
+Laboratory work in the discipline "Algorithms and data structures". ETU, 4 semester. C++
 
 LAB 1 - Class for creating a singly linked list
 
